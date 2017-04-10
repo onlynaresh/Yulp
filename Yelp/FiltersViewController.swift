@@ -121,6 +121,8 @@ class FiltersViewController: UIViewController {
         for (_, isSelected) in isDealOnState{
             if(isSelected){
                    filters["deal"] = true as AnyObject?
+            }else {
+                filters["deal"] = false as AnyObject?
             }
         }
         
