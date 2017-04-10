@@ -35,21 +35,24 @@ The following **optional** features are implemented:
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1.Patterns to improve the controllers <br>
-2. Using plists to manage the sections in a table.
+2. Using plists to manage the sections in a table<br>
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='yelpV1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='yelpV1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+
+
+
 References:
 
-    1)http://www.appcoda.com/expandable-table-view/ <br>
-    2)https://github.com/DeekshaPrabhakar/Yelp<br>
-    3)https://www.raywenderlich.com/90971/introduction-mapkit-swift-tutorial
+1)http://www.appcoda.com/expandable-table-view/
+2)https://github.com/DeekshaPrabhakar/Yelp
+3)https://www.raywenderlich.com/90971/introduction-mapkit-swift-tutorial
 
 ## License
 
