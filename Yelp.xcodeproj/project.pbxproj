@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D8A5A19CCF9F900D2DB53 /* AppDelegate.swift */; };
-		222D8A6019CCF9F900D2DB53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D8A5E19CCF9F900D2DB53 /* Main.storyboard */; };
 		222D8A6219CCF9F900D2DB53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222D8A6119CCF9F900D2DB53 /* Images.xcassets */; };
 		222D8A6519CCF9F900D2DB53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222D8A6319CCF9F900D2DB53 /* LaunchScreen.xib */; };
 		222D8A7119CCF9F900D2DB53 /* YelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D8A7019CCF9F900D2DB53 /* YelpTests.swift */; };
@@ -17,6 +16,24 @@
 		22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */; };
 		31D95BCBCA38716181E686D3 /* Pods_Yelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79C0AC126EDAA235847CEA2 /* Pods_Yelp.framework */; };
 		47848697133B87663A122E3D /* Pods_YelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1000F3975EB43318C1D4FA /* Pods_YelpTests.framework */; };
+		4D29311D1E99B699003DA238 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29311B1E99B699003DA238 /* Deal.swift */; };
+		4D29311E1E99B699003DA238 /* Deal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D29311C1E99B699003DA238 /* Deal.xib */; };
+		4D2931211E99C71B003DA238 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29311F1E99C71B003DA238 /* Distance.swift */; };
+		4D2931221E99C71B003DA238 /* Distance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2931201E99C71B003DA238 /* Distance.xib */; };
+		4D2931291E99D735003DA238 /* SortByCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2931271E99D735003DA238 /* SortByCell.swift */; };
+		4D29312A1E99D735003DA238 /* SortByCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2931281E99D735003DA238 /* SortByCell.xib */; };
+		4D29312D1E99D880003DA238 /* SeeAllCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29312B1E99D880003DA238 /* SeeAllCell.swift */; };
+		4D29312E1E99D880003DA238 /* SeeAllCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D29312C1E99D880003DA238 /* SeeAllCell.xib */; };
+		4D2931311E99DAEF003DA238 /* SelectedDropdownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29312F1E99DAEF003DA238 /* SelectedDropdownCell.swift */; };
+		4D2931321E99DAEF003DA238 /* SelectedDropdownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2931301E99DAEF003DA238 /* SelectedDropdownCell.xib */; };
+		4D29313E1E9ADB80003DA238 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29313D1E9ADB80003DA238 /* MapsController.swift */; };
+		4D2931401E9AEA94003DA238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D29313F1E9AEA94003DA238 /* Main.storyboard */; };
+		4D2931431E9AF586003DA238 /* pinDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2931411E9AF586003DA238 /* pinDetails.swift */; };
+		4D2931441E9AF586003DA238 /* pinDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2931421E9AF586003DA238 /* pinDetails.xib */; };
+		4DDB610C1E969DBB007B1899 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB610B1E969DBB007B1899 /* BusinessCell.swift */; };
+		4DEC43271E96DF8E00035ADE /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC43261E96DF8E00035ADE /* SwitchCell.swift */; };
+		4DEC43291E96E13300035ADE /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC43281E96E13300035ADE /* FiltersViewController.swift */; };
+		4DEC438F1E99404100035ADE /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEC438E1E99404100035ADE /* SwitchCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +51,6 @@
 		222D8A5519CCF9F900D2DB53 /* Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D8A5919CCF9F900D2DB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222D8A5A19CCF9F900D2DB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		222D8A5F19CCF9F900D2DB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222D8A6119CCF9F900D2DB53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		222D8A6419CCF9F900D2DB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		222D8A6A19CCF9F900D2DB53 /* YelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +59,24 @@
 		222D8A7C19CCFAE000D2DB53 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		22AAAA981AEA0A9700A544AF /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
+		4D29311B1E99B699003DA238 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		4D29311C1E99B699003DA238 /* Deal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Deal.xib; sourceTree = "<group>"; };
+		4D29311F1E99C71B003DA238 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		4D2931201E99C71B003DA238 /* Distance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Distance.xib; sourceTree = "<group>"; };
+		4D2931271E99D735003DA238 /* SortByCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortByCell.swift; sourceTree = "<group>"; };
+		4D2931281E99D735003DA238 /* SortByCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortByCell.xib; sourceTree = "<group>"; };
+		4D29312B1E99D880003DA238 /* SeeAllCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllCell.swift; sourceTree = "<group>"; };
+		4D29312C1E99D880003DA238 /* SeeAllCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeeAllCell.xib; sourceTree = "<group>"; };
+		4D29312F1E99DAEF003DA238 /* SelectedDropdownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedDropdownCell.swift; path = ../../Yelp/Yelp/SelectedDropdownCell.swift; sourceTree = "<group>"; };
+		4D2931301E99DAEF003DA238 /* SelectedDropdownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectedDropdownCell.xib; path = ../../Yelp/Yelp/SelectedDropdownCell.xib; sourceTree = "<group>"; };
+		4D29313D1E9ADB80003DA238 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
+		4D29313F1E9AEA94003DA238 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D2931411E9AF586003DA238 /* pinDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pinDetails.swift; sourceTree = "<group>"; };
+		4D2931421E9AF586003DA238 /* pinDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pinDetails.xib; sourceTree = "<group>"; };
+		4DDB610B1E969DBB007B1899 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		4DEC43261E96DF8E00035ADE /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		4DEC43281E96E13300035ADE /* FiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		4DEC438E1E99404100035ADE /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
 		5871D66103F8E8D78915F798 /* Pods-YelpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YelpTests/Pods-YelpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		883322706A784248B16F444A /* Pods-Yelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yelp/Pods-Yelp.release.xcconfig"; sourceTree = "<group>"; };
 		9B128C050DE78660DE2A8E75 /* Pods-YelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YelpTests/Pods-YelpTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,11 +128,12 @@
 		222D8A5719CCF9F900D2DB53 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				4D29313F1E9AEA94003DA238 /* Main.storyboard */,
+				4DDB610A1E969D92007B1899 /* Views */,
 				22AAAA9A1AEA0AA100A544AF /* Models */,
 				222D8A7A19CCFAAA00D2DB53 /* API */,
 				22AAAA9D1AEA1EC600A544AF /* View Controllers */,
 				222D8A5A19CCF9F900D2DB53 /* AppDelegate.swift */,
-				222D8A5E19CCF9F900D2DB53 /* Main.storyboard */,
 				222D8A6119CCF9F900D2DB53 /* Images.xcassets */,
 				222D8A6319CCF9F900D2DB53 /* LaunchScreen.xib */,
 				222D8A5819CCF9F900D2DB53 /* Supporting Files */,
@@ -151,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */,
+				4DEC43281E96E13300035ADE /* FiltersViewController.swift */,
+				4D29313D1E9ADB80003DA238 /* MapsController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -163,6 +200,28 @@
 				0A1000F3975EB43318C1D4FA /* Pods_YelpTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DDB610A1E969D92007B1899 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D2931411E9AF586003DA238 /* pinDetails.swift */,
+				4D2931421E9AF586003DA238 /* pinDetails.xib */,
+				4D29312F1E99DAEF003DA238 /* SelectedDropdownCell.swift */,
+				4D2931301E99DAEF003DA238 /* SelectedDropdownCell.xib */,
+				4DDB610B1E969DBB007B1899 /* BusinessCell.swift */,
+				4DEC43261E96DF8E00035ADE /* SwitchCell.swift */,
+				4DEC438E1E99404100035ADE /* SwitchCell.xib */,
+				4D29311B1E99B699003DA238 /* Deal.swift */,
+				4D29311C1E99B699003DA238 /* Deal.xib */,
+				4D29311F1E99C71B003DA238 /* Distance.swift */,
+				4D2931201E99C71B003DA238 /* Distance.xib */,
+				4D2931271E99D735003DA238 /* SortByCell.swift */,
+				4D2931281E99D735003DA238 /* SortByCell.xib */,
+				4D29312B1E99D880003DA238 /* SeeAllCell.swift */,
+				4D29312C1E99D880003DA238 /* SeeAllCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		F64653F46DB3B45A24B65CDD /* Pods */ = {
@@ -266,7 +325,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222D8A6019CCF9F900D2DB53 /* Main.storyboard in Resources */,
+				4D29312A1E99D735003DA238 /* SortByCell.xib in Resources */,
+				4D29311E1E99B699003DA238 /* Deal.xib in Resources */,
+				4D2931221E99C71B003DA238 /* Distance.xib in Resources */,
+				4DEC438F1E99404100035ADE /* SwitchCell.xib in Resources */,
+				4D2931321E99DAEF003DA238 /* SelectedDropdownCell.xib in Resources */,
+				4D29312E1E99D880003DA238 /* SeeAllCell.xib in Resources */,
+				4D2931441E9AF586003DA238 /* pinDetails.xib in Resources */,
+				4D2931401E9AEA94003DA238 /* Main.storyboard in Resources */,
 				222D8A6519CCF9F900D2DB53 /* LaunchScreen.xib in Resources */,
 				222D8A6219CCF9F900D2DB53 /* Images.xcassets in Resources */,
 			);
@@ -379,10 +445,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2931211E99C71B003DA238 /* Distance.swift in Sources */,
+				4D29312D1E99D880003DA238 /* SeeAllCell.swift in Sources */,
+				4D29313E1E9ADB80003DA238 /* MapsController.swift in Sources */,
+				4DDB610C1E969DBB007B1899 /* BusinessCell.swift in Sources */,
+				4D2931291E99D735003DA238 /* SortByCell.swift in Sources */,
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
+				4D2931431E9AF586003DA238 /* pinDetails.swift in Sources */,
+				4DEC43291E96E13300035ADE /* FiltersViewController.swift in Sources */,
+				4D29311D1E99B699003DA238 /* Deal.swift in Sources */,
+				4D2931311E99DAEF003DA238 /* SelectedDropdownCell.swift in Sources */,
 				22AAAA991AEA0A9700A544AF /* Business.swift in Sources */,
 				222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */,
 				222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */,
+				4DEC43271E96DF8E00035ADE /* SwitchCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		222D8A5E19CCF9F900D2DB53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				222D8A5F19CCF9F900D2DB53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		222D8A6319CCF9F900D2DB53 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

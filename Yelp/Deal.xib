@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Deal" id="KGk-i7-Jjw" customClass="Deal" customModule="Yelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RTJ-pE-J1m">
+                        <rect key="frame" x="255" y="6" width="51" height="31"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNn-tg-dBy">
+                        <rect key="frame" x="17" y="11" width="82" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cNn-tg-dBy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="0rq-hY-riJ"/>
+                    <constraint firstAttribute="trailing" secondItem="RTJ-pE-J1m" secondAttribute="trailing" constant="16" id="Dv3-NC-2bG"/>
+                    <constraint firstItem="RTJ-pE-J1m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="Jy7-0J-uPh"/>
+                    <constraint firstItem="RTJ-pE-J1m" firstAttribute="centerX" secondItem="cNn-tg-dBy" secondAttribute="centerX" constant="221.5" id="d3g-iD-BhE"/>
+                    <constraint firstAttribute="bottom" secondItem="RTJ-pE-J1m" secondAttribute="bottom" constant="6" id="qe9-nM-Wut"/>
+                    <constraint firstItem="cNn-tg-dBy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="sTB-u6-c4z"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cNn-tg-dBy" secondAttribute="bottom" constant="3" id="vdG-D5-Xw9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dealLabel" destination="cNn-tg-dBy" id="S28-yM-JvE"/>
+                <outlet property="dealLabelSwitchView" destination="H2p-sc-9uM" id="Biv-wY-2vz"/>
+                <outlet property="dealSwitch" destination="RTJ-pE-J1m" id="TvX-NL-Jmt"/>
+            </connections>
+            <point key="canvasLocation" x="-96" y="-221"/>
+        </tableViewCell>
+    </objects>
+</document>
